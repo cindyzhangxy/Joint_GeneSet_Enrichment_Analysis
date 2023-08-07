@@ -1,6 +1,6 @@
 # Gene Set Enrichment Analysis for Pharmacogenomics (GeneSetEnrichmentAnalysis_PGx)
 
-This repository contains the code and data for a four-part joint association gene set enrichment analysis in the field of pharmacogenomics. I investigated the biological question: Are any of the biololgical pathways identified through a structured  literature review enriched in patients who developed methotrexate-induced mucositis in their cancer treatment? This repository only contained analysis that have been conducted using publicly available datasets. To ensure confidentiality protection, any patient identifiers or patient-related data have been removed and only results were uploaded to this repository.
+This repository features code and data related to a four-part, joint-association gene set enrichment analysis in pharmacogenomics. The central research query is: Are there specific biological pathways, identified through a structured literature review, that are more prevalent in patients who experienced methotrexate-induced mucositis during their cancer treatment? It's important to note that this repository exclusively includes analyses based on publicly available datasets. To uphold patient confidentiality, any identifiers or direct patient data have been omitted, retaining only the resulting analyses.
 
 ## Overview
 
