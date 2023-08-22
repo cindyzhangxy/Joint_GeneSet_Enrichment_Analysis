@@ -8,7 +8,7 @@ This repository presents the results of a comprehensive gene set enrichment anal
 
 ## Data
 
-The data used in this analysis are publicly available datasets that have been carefully curated and processed for this specific research. The datasets include genomic information, drug response data, and clinical outcomes. Patient identifiers and any other patient-related data have been removed to protect confidentiality. 
+The data used in this analysis are publicly available datasets that have been carefully curated and processed for this specific research. Proprietary genomics information, drug response data, and clinical outcomes were masked to protect confidentiality.  
 
 ## Code
 
