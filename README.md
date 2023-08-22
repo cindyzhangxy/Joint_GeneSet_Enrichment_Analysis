@@ -1,4 +1,4 @@
-# Gene Set Enrichment Analysis for Pharmacogenetic Variants Identification and Adverse Drug Reaction Risk Modeling 
+# Gene Set Enrichment Analysis for Pharmacogenetics Predictors Identification and Adverse Drug Reaction Risk Modeling 
 
 This repository features code and data related to a three-part, joint-association gene set enrichment analysis in pharmacogenomics. The central research query is: Are there specific biological pathways, identified through a structured literature review, that are more prevalent in patients who experienced methotrexate-induced mucositis during their cancer treatment? It's important to note that this repository exclusively includes analyses based on publicly available datasets. To uphold patient confidentiality, any identifiers or direct patient data have been omitted, retaining only the resulting analyses.
 
