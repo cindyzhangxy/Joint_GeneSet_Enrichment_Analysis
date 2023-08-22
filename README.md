@@ -5,11 +5,7 @@ This repository features code and data related to a three-part, joint-associatio
 ## Overview
 
 This repository presents the results of a comprehensive gene set enrichment analysis for pharmacogenomics. The analysis involves three distinct parts, each focusing on different aspects of gene set enrichment. The aim of this research is to identify enriched gene sets associated with specific drug responses or therapeutic outcomes.
-
-## Data
-
-The data used in this analysis are publicly available datasets that have been carefully curated and processed for this specific research. Proprietary genomics information, drug response data, and clinical outcomes were masked to protect confidentiality.  
-
+  
 ## Code
 
 The code provided in this repository encompasses the necessary scripts and workflows to reproduce the gene set enrichment analysis. These scripts have been thoroughly documented to assist users in understanding the methodology and implementing the analysis on their own datasets if desired.
