@@ -14,8 +14,6 @@ The data used in this analysis are publicly available datasets that have been ca
 
 The code provided in this repository encompasses the necessary scripts and workflows to reproduce the gene set enrichment analysis. These scripts have been thoroughly documented to assist users in understanding the methodology and implementing the analysis on their own datasets if desired.
 
-Certainly! Here's a sample README section that outlines the requirements to run your scripts. You can customize it further as needed.
-
 ## Requirements and Installation
 
 To run the scripts in this repository, you will need to have Python 3.10.3 or later installed along with the following packages:
