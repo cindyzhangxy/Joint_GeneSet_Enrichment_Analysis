@@ -14,11 +14,44 @@ The data used in this analysis are publicly available datasets that have been ca
 
 The code provided in this repository encompasses the necessary scripts and workflows to reproduce the gene set enrichment analysis. These scripts have been thoroughly documented to assist users in understanding the methodology and implementing the analysis on their own datasets if desired.
 
+Certainly! Here's a sample README section that outlines the requirements to run your scripts. You can customize it further as needed.
+
+## Requirements and Installation
+
+To run the scripts in this repository, you will need to have Python 3.10.3 or later installed along with the following packages:
+
+- pandas
+- numpy
+- scikit-learn (sklearn)
+- seaborn
+- matplotlib
+
+You can install these packages using the following commands:
+
+### Using pip
+
+```bash
+pip install pandas numpy scikit-learn seaborn matplotlib
+```
+
+### Using conda
+
+If you are using Anaconda, you can create an environment with the required packages by running:
+
+```bash
+conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplotlib
+conda activate myenv
+```
+
+## Running the Scripts
+
+After installing the necessary packages, you can run the scripts in this repository. Make sure to navigate to the directory containing the scripts and then execute the desired script using Python.
+
 ## How to Use
 
-To utilize the code and replicate the analysis, follow the instructions provided in the respective directories. The code is written in [python and R], and detailed explanations are provided within the code files. Any additional dependencies required for running the code are specified in the documentation.
+To utilize the code and replicate the analysis, follow the instructions provided in the respective directories. The code is written in [python or R], and detailed explanations are provided within the code files. Any additional dependencies required for running the code are specified in the documentation.
 
-Please note that the data used in this analysis is not included in this repository due to confidentiality reasons. However, instructions on how to obtain the data from the publicly available sources are provided, ensuring transparecy. 
+Please note that the data used in this analysis is not included in this repository due to confidentiality reasons. However, instructions on how to obtain the data from publicly available sources are provided, ensuring transparency. 
 
 ## Contact
 
