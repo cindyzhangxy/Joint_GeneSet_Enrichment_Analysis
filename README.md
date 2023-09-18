@@ -1,6 +1,16 @@
 # Pharmacogenetics Analysis: Methotrexate-Induced Mucositis Risk
 
-This repository contains code and workflows for a three-phase gene set enrichment analysis focusing on methotrexate-induced mucositis in cancer patients. Specifically, the repository includes R scripts for feature engineering and Python scripts for running the XGBoost models and calling APIs from pathway databases and Ensembl GRCh37. Publicly available datasets were used to identify biological pathways linked to adverse drug reactions.
+## Overview
+
+The primary objective of this project is twofold: 
+
+1. To identify gene sets and individual genes that exhibit a strong association with patients who experience methotrexate-induced mucositis.
+  
+2. To leverage the insights gained from these gene sets to develop a machine learning algorithm aimed at predicting patient susceptibility to mucositis.
+
+By coupling rigorous gene set enrichment analysis with machine learning techniques, our aim is to create a predictive model that can efficiently forecast the risk of methotrexate-induced mucositis in cancer patients.
+
+This repository contains code and workflows for a comprehensive gene set enrichment analysis, along with machine-learning models focusing on methotrexate-induced mucositis in cancer patients. Specifically, the repository includes R scripts for feature engineering and Python scripts for running the XGBoost models and calling APIs from pathway databases and Ensembl GRCh37. Publicly available datasets were used to identify biological pathways linked to adverse drug reactions.
 
 **Note**: This repository does not contain patient data or identifiers to ensure confidentiality.
 
@@ -12,10 +22,7 @@ This repository contains code and workflows for a three-phase gene set enrichmen
   - [R Environment](#r-environment)
 - [Usage](#usage)
 - [Contact](#contact)
-
-## Overview
-
-Our aim is to identify gene sets that are highly represented in patients who have experienced methotrexate-induced mucositis. The analysis consists of multiple parts, including gene set enrichment, feature engineering using R, and machine learning models using Python.
+- [Folders in this Repository](#folders-in-this-repository)
 
 ## Installation
 
@@ -39,8 +46,6 @@ conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplo
 conda activate myenv
 ```
 
-To quickly set up the `gbdt_feature` Python environment, you can also use the provided `gbdt_feature.yml` file by running `conda env create -f gbdt_feature.yml`.
-
 #### R Environment
 
 - Required R libraries: `tidyverse`, `data.table`, `stringr`
@@ -62,3 +67,11 @@ Each script is thoroughly documented for your convenience. Although the data isn
 ## Contact
 
 For any questions, please reach out to [czhang@cmmt.ubc.ca].
+
+## Folders in this Repository
+
+- `GradientBoostingDecisionTree`: This folder contains both regular GBDT and XGBoost algorithms, designed to handle both preprocessed data without NA values and original data with missing values.
+
+- `PathwayCuration`: This folder focuses on gathering information from Pathway databases by calling APIs complemented with expert review and literature review. 
+
+- `JointAssociationAnalysisResultOnly`: This folder contains the results of the Joint Association analysis. The tool can be available from [this link](https://ctg.cncr.nl/software/jag).
