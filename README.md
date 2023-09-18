@@ -1,52 +1,47 @@
-# Gene Set Enrichment Analysis for Pharmacogenetics Predictors Identification and Adverse Drug Reaction Risk Modeling 
+# Pharmacogenetics Analysis: Methotrexate-Induced Mucositis Risk
 
-This repository features code and data related to a three-part, joint-association gene set enrichment analysis in pharmacogenomics. The central research query is: Are there specific biological pathways, identified through a structured literature review, that are more prevalent in patients who experienced methotrexate-induced mucositis during their cancer treatment? It's important to note that this repository exclusively includes analyses based on publicly available datasets. To uphold patient confidentiality, any identifiers or direct patient data have been omitted, retaining only the analyses.
+This repository contains code and workflows for a three-phase gene set enrichment analysis focusing on methotrexate-induced mucositis in cancer patients. We use publicly available datasets to identify biological pathways linked to adverse drug reactions. 
+
+**Note**: This repository does not contain patient data or identifiers to ensure confidentiality.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
 
 ## Overview
 
-This repository presents the results of a comprehensive gene set enrichment analysis for pharmacogenomics. The analysis involves three distinct parts, each focusing on different aspects of gene set enrichment. The aim of this research is to identify enriched gene sets associated with specific drug responses or therapeutic outcomes.
-  
-## Code
+Our aim is to identify gene sets that are highly represented in patients who have experienced methotrexate-induced mucositis. This analysis consists of three parts, each covering different facets of gene set enrichment.
 
-The code provided in this repository encompasses the necessary scripts and workflows to reproduce the gene set enrichment analysis. These scripts have been thoroughly documented to assist users in understanding the methodology and implementing the analysis on their own datasets if desired.
+## Installation
 
-## Requirements and Installation
+### Prerequisites
 
-To run the scripts in this repository, you will need to have Python 3.10.3 or later installed along with the following packages:
+- Python 3.10.3 or later
+- Required Python packages: `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`
 
-- pandas
-- numpy
-- scikit-learn (sklearn)
-- seaborn
-- matplotlib
-
-You can install these packages using the following commands:
-
-### Using pip
+### Setup with pip
 
 ```bash
 pip install pandas numpy scikit-learn seaborn matplotlib
 ```
 
-### Using conda
-
-If you are using Anaconda, you can create an environment with the required packages by running:
+### Setup with Anaconda
 
 ```bash
 conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplotlib
 conda activate myenv
 ```
 
-## Running the Scripts
+## Usage
 
-After installing the necessary packages, you can run the scripts in this repository. Make sure to navigate to the directory containing the scripts and then execute the desired script using Python.
+1. Clone the repository and navigate to its directory.
+2. Run the desired script with Python.
 
-## How to Use
-
-To utilize the code and replicate the analysis, follow the instructions provided in the respective directories. The code is written in [python or R], and detailed explanations are provided within the code files. Any additional dependencies required for running the code are specified in the documentation.
-
-Please note that the data used in this analysis is not included in this repository due to confidentiality reasons. However, instructions on how to obtain the data from publicly available sources are provided, ensuring transparency. 
+Each script is thoroughly documented for your convenience. Though the data isn't provided, we guide you on how to acquire it from public sources.
 
 ## Contact
 
-If you have any questions or inquiries regarding this repository, please contact [czhang@cmmt.ubc.ca]. I would be happy to assist you.
+For any questions, please reach out to [czhang@cmmt.ubc.ca].
