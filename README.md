@@ -19,7 +19,7 @@ Our aim is to identify gene sets that are highly represented in patients who hav
 
 ### Prerequisites
 
-- Python 3.10.3 or later
+- Python 3.11.5 or later
 - Required Python packages: `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`
 
 ### Setup with pip
