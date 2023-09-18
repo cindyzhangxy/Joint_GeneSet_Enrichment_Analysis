@@ -1,6 +1,6 @@
 # Pharmacogenetics Analysis: Methotrexate-Induced Mucositis Risk
 
-This repository contains code and workflows for a gene set enrichment analysis focusing on methotrexate-induced mucositis in cancer patients. Specifically, the repository includes R scripts for feature engineering and Python scripts for running the XGBoost models and calling APIs. We use publicly available datasets to identify biological pathways linked to adverse drug reactions.
+This repository contains code and workflows for a three-phase gene set enrichment analysis focusing on methotrexate-induced mucositis in cancer patients. Specifically, the repository includes R scripts for feature engineering and Python scripts for running the XGBoost models and calling APIs from pathway databases and Ensembl GRCh37. We use publicly available datasets to identify biological pathways linked to adverse drug reactions.
 
 **Note**: This repository does not contain patient data or identifiers to ensure confidentiality.
 
