@@ -35,6 +35,8 @@ conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplo
 conda activate myenv
 ```
 
+To quickly set up the `gbdt_feature` environment, you can also use the provided `gbdt_feature.yml` file by running `conda env create -f gbdt_feature.yml`.
+
 ## Usage
 
 1. Clone the repository and navigate to its directory.
