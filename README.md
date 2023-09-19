@@ -8,7 +8,7 @@ The primary objective of this project is twofold:
   
 2. To leverage the insights gained from these gene sets to develop a machine learning algorithm aimed at predicting patient susceptibility to mucositis.
 
-By coupling rigorous gene set enrichment analysis with machine learning techniques, our aim is to create a predictive model that can efficiently forecast the risk of methotrexate-induced mucositis in cancer patients.
+By coupling rigorous gene set enrichment analysis with machine learning techniques, the aim is to create a predictive model that can efficiently forecast the risk of methotrexate-induced mucositis in cancer patients.
 
 This repository contains code and workflows for a comprehensive gene set enrichment analysis, along with machine-learning models focusing on methotrexate-induced mucositis in cancer patients. Specifically, the repository includes R scripts for feature engineering and Python scripts for running the XGBoost models and calling APIs from pathway databases and Ensembl GRCh37. Publicly available datasets were used to identify biological pathways linked to adverse drug reactions.
 
