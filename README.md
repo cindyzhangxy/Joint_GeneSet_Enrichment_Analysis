@@ -60,7 +60,7 @@ install.packages(c("tidyverse", "data.table", "stringr"))
 
 1. Clone the repository and navigate to its directory.
 2. For feature engineering, run the desired R script. For example, use `Rscript feature_engineering.R`.
-3. For running XGBoost models and calling APIs, run the corresponding Python script. For example, use `python xgboost_model.py`.
+3. For running the graduent boostes decision tree models and calling APIs, run the corresponding Python script. For example, use `python xgboost_model.py`.
 
 Each script is thoroughly documented for your convenience. Although the data isn't provided, we guide you on how to acquire it from public sources.
 
