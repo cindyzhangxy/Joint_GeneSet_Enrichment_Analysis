@@ -11,7 +11,7 @@ This repository focuses on feature engineering for analyzing methotrexate-induce
 
 ### Files:
 
-1. **`feature_pruned_subject_removed.ipynb`**: Utilizes the scikit-learn GBDT model. Features are pruned based on an \(r^2\) value of 0.8 or above, excluding subjects with incomplete allele information.
+1. **`feature_pruned_subject_removed.ipynb`**: Utilizes the scikit-learn GBDT model. Features are pruned based on an $\(r^2\)$ value of 0.8 or above, excluding subjects with incomplete allele information.
 2. **`feature_pruned_withNA.ipynb`**: Implements XGboost to include all subjects, barring one due to missing radiation status. Feature pruning is consistent with the first notebook.
 
 ### Folder:
