@@ -20,9 +20,6 @@ This repository is dedicated to feature engineering tasks pertinent to the analy
 
 Both `feature_pruned_subject_removed.ipynb` and `feature_pruned_withNA.ipynb` employ genetically determined ancestry PCs as features. These PCs are extrapolated from the renowned 1000 Genomes Project.
 
-### ADMIXTURE-based Population Estimation
-
-The notebook titled `feature_pruned_subject_removed_pop.ipynb` incorporates ADMIXTURE, a potent software tool tailored for maximum likelihood estimation of individual ancestries derived from multilocus SNP genotype datasets. Not only is ADMIXTURE expedient, surpassing tools like STRUCTURE in speed, but it also adheres to an identical statistical model. Delve deeper into ADMIXTURE's capabilities [here](https://dalexander.github.io/admixture/).
 
 ## PCA Generation and Visualization
 
