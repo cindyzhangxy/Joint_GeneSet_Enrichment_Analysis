@@ -53,7 +53,8 @@ conda activate myenv
 ##### Setup with R
 
 ```R
-install.packages(c("tidyverse", "data.table", "stringr"))
+- R 4.2.2 or later
+- install.packages(c("tidyverse", "data.table", "stringr"))
 ```
 
 ### Usage
