@@ -26,7 +26,7 @@ Both notebooks incorporate ancestry PCs derived from the renowned 1000 Genomes P
 
 ### Genetic Variants
 
-As a proof of concept, we selected features for 259 genetic variants linked to six genes of interest identified in [gene-based gene set enrichment analysis]("https://github.com/cindyzhangxy/Joint_GeneSet_Enrichment_Analysis/tree/master/JointAssocationAnalysisResultOnly"): _LRP5_, _CSNK1A1_, and _PPARD_ in the WNT/β-Catenin signaling pathway and _PIK3R2_, _PRKCD_, and _AGT_ in the IL-6 signaling pathway. These genes were identified within the enriched gene sets for the HD IV-MTX treated group. The genotype of each variant was assigned three scores based on allele presence: 
+As a proof of concept, we selected features for 259 genetic variants linked to six genes of interest identified in [gene-based gene set enrichment analysis](https://github.com/cindyzhangxy/Joint_GeneSet_Enrichment_Analysis/tree/master/JointAssocationAnalysisResultOnly): _LRP5_, _CSNK1A1_, and _PPARD_ in the WNT/β-Catenin signaling pathway and _PIK3R2_, _PRKCD_, and _AGT_ in the IL-6 signaling pathway. These genes were identified within the enriched gene sets for the HD IV-MTX treated group. The genotype of each variant was assigned a score based on allele presence: 
 
 - 0: homozygous for the reference allele
 - 1: heterozygous for the reference allele
@@ -38,7 +38,7 @@ We utilized the Ensembl Variant Effect Predictor (VEP) GRCh37 to gather molecula
 - Removal of features with negligible predictive power or lacking biological relevance to mucositis from cancer treatment
 - Exclusion of features with >50% missing data
 
-To refine our analysis, we applied a Linkage Disequilibrium (LD) -based variant pruning using PLINK v1.9. This aimed to remove variants with a pairwise \(R^2\) above 0.8, using a 50 SNP window and a 5 SNP step size. This LD-pruning ensures the retention of informative, independent variants.
+To refine our analysis, we applied a Linkage Disequilibrium (LD) -based variant pruning using PLINK v1.9. This aimed to remove variants with a pairwise $\(R^2\)$ above 0.8, using a 50 SNP window and a 5 SNP step size. This LD-pruning ensures the retention of informative, independent variants.
 
 ### Clinical Features
 
