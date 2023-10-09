@@ -45,7 +45,7 @@ pip install pandas numpy scikit-learn seaborn matplotlib xgboost
 conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplotlib xgboost
 conda activate myenv
 ```
-##### _Set up with `gbdt_feature.yml` directly_ 
+##### Set up with `gbdt_feature.yml` directly 
 Alternatively, if you prefer a direct setup, utilize the provided gbdt_feature.yml to recreate the Conda environment seamlessly for the python scripts. 
 
 #### R Environment
