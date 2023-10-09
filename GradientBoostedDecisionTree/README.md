@@ -40,7 +40,7 @@ The Ensembl Variant Effect Predictor (VEP) GRCh37 was used to highlight molecula
 Clinical features like sex, radiation status, age at IV-MTX commencement, and the first four PCs from a PCA amalgamating our cohort with reference sets from the 1000 Genomes Project were incorporated.
 
 ## Directory Tree
-.
+```bash
 ├── FeatureEngineering
 │ ├── feature_pruned_subject_removed.ipynb
 │ ├── feature_pruned_withNA.ipynb
@@ -52,3 +52,5 @@ Clinical features like sex, radiation status, age at IV-MTX commencement, and th
 └── GBDT Models
 │ ├── GBDT_binary_subject_removed.ipynb
 │ ├──XGboost_withNA_PC.ipynb
+
+````
