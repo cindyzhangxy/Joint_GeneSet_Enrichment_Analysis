@@ -1,4 +1,4 @@
-# Pharmacogenetics Analysis: Methotrexate-Induced Mucositis Risk
+# Identifying Pharmacogenetics Variants in Methotrexate-Induced Mucositis Using Gene Set Analysis and Machine Learning 
 
 ## Overview
 
