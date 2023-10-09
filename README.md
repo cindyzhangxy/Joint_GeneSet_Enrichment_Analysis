@@ -71,7 +71,7 @@ For any questions, please reach out to [czhang@cmmt.ubc.ca].
 
 ## Folders in this Repository
 
-- `GradientBoostingDecisionTree`: This folder contains both regular GBDT and XGBoost algorithms, designed to handle both preprocessed data without NA values and original data with missing values.
+- `GradientBoostedDecisionTree`: This folder contains both regular GBDT and XGBoost algorithms, designed to handle both preprocessed data without NA values and original data with missing values.
 
 - `PathwayCuration`: This folder focuses on gathering information from Pathway databases by calling APIs complemented with expert review and literature review. 
 
