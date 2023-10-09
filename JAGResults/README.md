@@ -1,4 +1,4 @@
-# Joint Gene Set Enrichment Analysis Repository
+# JAG Gene Set Enrichment Analysis
 
 This repository hosts files related to the joint gene set enrichment analysis. Analysis was segmented based on varying MTX dosages. The enrichment analysis was conducted using [JAG](https://ctg.cncr.nl/software/jag), which utilizes Python v2.6.
 
