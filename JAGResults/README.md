@@ -20,6 +20,4 @@ The cohort was trifurcated based on MTX dosage:
 
 ### Content in Each Dosage Category Folder
 
-Each dosage category folder is structured with:
-- `jag.merged.P1.empp`: Holds the results of the phenotypic permutation test in each category.
-
+For patient confidentiality, each dosage category folder contains only the resulting empirical P values resulting from their respective 10,000 phenotypic permutations - `jag.merged.P1.empp`
