@@ -61,7 +61,7 @@ conda activate myenv
 
 1. Clone the repository and navigate to its directory.
 2. For feature engineering, run the desired R script. For example, use `Rscript feature_engineering.R`.
-3. For running the graduent boostes decision tree models and calling APIs, run the corresponding Python script. For example, use `python xgboost_model.py`.
+3. For running the gradient boosted decision tree models and calling APIs, run the corresponding Python script. 
 
 Each script is thoroughly documented for your convenience. Although the data isn't provided, we guide you on how to acquire it from public sources.
 
@@ -75,4 +75,4 @@ For any questions, please reach out to [czhang@cmmt.ubc.ca].
 
 - `PathwayCuration`: This folder focuses on gathering information from Pathway databases by calling APIs complemented with expert review and literature review. 
 
-- `JointAssociationAnalysisResultOnly`: This folder contains the results of the Joint Association analysis. The tool can be available from [this link](https://ctg.cncr.nl/software/jag).
+- `JAGResults`: This folder contains the results of the Joint Association analysis. The tool can be available from [this link](https://ctg.cncr.nl/software/jag).

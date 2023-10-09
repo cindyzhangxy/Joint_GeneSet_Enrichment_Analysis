@@ -15,11 +15,11 @@ The cohort was trifurcated based on MTX dosage:
 ## Repository Structure
 
 - `combined_dosage/`: Contains files for the full cohort.
-- `high_dose/`: Files pertinent to the HD IV-MTX group. This folder also houses a `gene_based/` sub-directory which includes jAG output for gene-based gene set enrichment analysis focusing on two significantly enriched pathways: IL6 (il6) and Wnt/beta-catenin (wnt).
+- `high_dose/`: Files pertinent to the HD IV-MTX group. This folder also houses a `gene_based/` sub-directory which includes JAG output for gene-based gene set enrichment analysis focusing on two significantly enriched pathways: IL6 (il6) and Wnt/beta-catenin (wnt).
 - `low_dose/`: Dedicated to the LD IV-MTX group's files.
 
 ### Content in Each Dosage Category Folder
 
 Each dosage category folder is structured with:
-- `jag.merged.P1.empp`: Holds the results of the self-contained test.
-- `jag.merged.P1.perm`: Contains test statistics for the permuted data.
+- `jag.merged.P1.empp`: Holds the results of the phenotypic permutation test in each category.
+
