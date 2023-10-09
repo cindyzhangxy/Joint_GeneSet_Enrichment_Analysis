@@ -6,7 +6,7 @@ This repository delves into feature engineering and GBDT model for the risk clas
 1. [File and Folder Descriptions](#file-and-folder-descriptions)
 2. [Feature Categories](#feature-categories)
 3. [GBDT Models](#gbdt-models)
-4. [Directory Tree](#Directory_Tree)
+4. [Directory Tree](#directory-tree)
 
 ## File and Folder Descriptions
 
@@ -39,7 +39,7 @@ The Ensembl Variant Effect Predictor (VEP) GRCh37 was used to highlight molecula
 ### Clinical Features
 Clinical features like sex, radiation status, age at IV-MTX commencement, and the first four PCs from a PCA amalgamating our cohort with reference sets from the 1000 Genomes Project were incorporated.
 
-## Directory_Tree
+## Directory Tree
 .
 ├── FeatureEngineering
 │ ├── feature_pruned_subject_removed.ipynb
