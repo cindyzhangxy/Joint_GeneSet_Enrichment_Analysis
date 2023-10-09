@@ -21,6 +21,5 @@ The cohort was trifurcated based on MTX dosage:
 ### Content in Each Dosage Category Folder
 
 Each dosage category folder is structured with:
-- `jag.distribution_sumlog.P1.pdf`: Distribution plot depicting test statistics of real and permuted data.
 - `jag.merged.P1.empp`: Holds the results of the self-contained test.
 - `jag.merged.P1.perm`: Contains test statistics for the permuted data.
