@@ -30,7 +30,7 @@ This repository contains code and workflows for a comprehensive gene set enrichm
 
 #### Python Environment
 
-- Python 3.11.5 or later
+- Python 3.10.3 or later
 - Required Python packages: `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`, `xgboost`
 
 ##### Setup with pip
@@ -45,6 +45,8 @@ pip install pandas numpy scikit-learn seaborn matplotlib xgboost
 conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplotlib xgboost
 conda activate myenv
 ```
+##### _Set up with `gbdt_feature.yml` directly_ 
+Alternatively, if you prefer a direct setup, utilize the provided gbdt_feature.yml to recreate the Conda environment seamlessly for the python scripts. 
 
 #### R Environment
 
@@ -57,11 +59,12 @@ conda activate myenv
 - install.packages(c("tidyverse", "data.table", "stringr"))
 ```
 
+
 ### Usage
 
 1. Clone the repository and navigate to its directory.
-2. For feature engineering, run the desired R script. For example, use `Rscript feature_engineering.R`.
-3. For running the gradient boosted decision tree models and calling APIs, run the corresponding Python script. 
+2. For feature engineering, run the desired R script. 
+3. For running the gradient-boosted decision tree models and calling APIs, run the corresponding Python script. 
 
 Each script is thoroughly documented for your convenience. Although the data isn't provided, we guide you on how to acquire it from public sources.
 
