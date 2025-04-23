@@ -31,18 +31,18 @@ This repository contains code and workflows for a comprehensive gene set enrichm
 #### Python Environment
 
 - Python 3.10.3 or later
-- Required Python packages: `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`, `xgboost`
+- Required Python packages: `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`, `xgboost`, `gseapy`, `openpyxl`
 
 ##### Setup with pip
 
 ```bash
-pip install pandas numpy scikit-learn seaborn matplotlib xgboost
+pip install pandas numpy scikit-learn seaborn matplotlib xgboost gseapy openpyxl
 ```
 
 ##### Setup with Anaconda
 
 ```bash
-conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplotlib xgboost
+conda create --name myenv python=3.10.3 pandas numpy scikit-learn seaborn matplotlib xgboost gseapy openpyxl
 conda activate myenv
 ```
 ##### Set up with `gbdt_feature.yml` directly 
