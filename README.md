@@ -2,17 +2,15 @@
 
 ## Overview
 
-The primary objective of this project is twofold: 
+This repository accompanies the publication:
 
-1. To identify gene sets and individual genes that exhibit a strong association with patients who experience methotrexate-induced mucositis.
-  
-2. To leverage the insights gained from these gene sets to develop a machine learning algorithm aimed at predicting patient susceptibility to mucositis.
+**Zhang XYC, Scott EN, Maagdenberg H, Man A, Li KH, Rassekh SR, Carleton BC, Ross CJD, Wasserman WW, Loucks CM.** *Pathway-Informed Machine Learning Identifies Genetic Predictors of High-Dose Methotrexate-Induced Mucositis in Pediatric Acute Lymphoblastic Leukemia*. **Clinical Pharmacology & Therapeutics**. 2026. https://doi.org/10.1002/cpt.70135
 
-By coupling rigorous gene set enrichment analysis with machine learning techniques, the aim is to create a predictive model that can efficiently forecast the risk of methotrexate-induced mucositis in cancer patients.
+The study investigated the genetic architecture of high-dose methotrexate-induced mucositis in pediatric acute lymphoblastic leukemia through pathway-informed feature engineering, gene set enrichment analysis, and machine learning. Biological pathways associated with mucositis susceptibility were identified and incorporated into predictive models to improve risk stratification.
 
-This repository contains code and workflows for a comprehensive gene set enrichment analysis, along with machine-learning models focusing on methotrexate-induced mucositis in cancer patients. Specifically, the repository includes R scripts for feature engineering and Python scripts for running the XGBoost models and calling APIs from pathway databases and Ensembl GRCh37. Publicly available datasets were used to identify biological pathways linked to adverse drug reactions.
+This repository contains the code and computational workflows used for pathway curation, feature engineering, gene set analysis, and gradient-boosted decision tree modeling. The repository includes R scripts for genomic feature generation and Python scripts for machine learning analyses, pathway database integration, and annotation using Ensembl GRCh37 resources.
 
-**Note**: This repository does not contain patient data or identifiers to ensure confidentiality.
+To protect patient privacy and comply with institutional ethics requirements, no patient-level genotype, phenotype, or clinical data are included in this repository. Publicly available resources and pathway databases were used where possible, and all code required to reproduce the computational analyses is provided.
 
 ## Table of Contents
 
@@ -79,3 +77,27 @@ For any questions, please reach out to [czhang@cmmt.ubc.ca].
 - `PathwayCuration`: This folder focuses on gathering information from Pathway databases by calling APIs complemented with expert review and literature review. 
 
 - `JAGResults`: This folder contains the results of the Joint Association analysis. The tool can be available from [this link](https://ctg.cncr.nl/software/jag).
+
+- 
+
+
+## Citation
+
+This repository accompanies the following publication. If you use this code, workflows, or derived resources in your research, please cite:
+
+> Zhang XYC, Scott EN, Maagdenberg H, Man A, Li KH, Rassekh SR, Carleton BC, Ross CJD, Wasserman WW, Loucks CM. *Pathway-Informed Machine Learning Identifies Genetic Predictors of High-Dose Methotrexate-Induced Mucositis in Pediatric Acute Lymphoblastic Leukemia*. **Clinical Pharmacology & Therapeutics**. 2026. https://doi.org/10.1002/cpt.70135
+
+### BibTeX
+
+```bibtex
+@article{zhang2026pathway,
+  title={Pathway-Informed Machine Learning Identifies Genetic Predictors of High-Dose Methotrexate-Induced Mucositis in Pediatric Acute Lymphoblastic Leukemia},
+  author={Zhang, Xiao Yu Cindy and Scott, Erika N and Maagdenberg, Hedy and Man, Alice and Li, Kathy H and Rassekh, S Rod and Carleton, Bruce C and Ross, Colin JD and Wasserman, Wyeth W and Loucks, Catrina M},
+  journal={Clinical Pharmacology & Therapeutics},
+  year={2026},
+  doi={10.1002/cpt.70135}
+}
+```
+
+
+
