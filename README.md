@@ -1,10 +1,14 @@
+[![Paper](https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/cpt.70135)]
+[![DOI]([https://doi.org/10.1002/cpt.70135])]
+[![Data](https://img.shields.io/badge/Data-Restricted-lightgrey.svg)]
+
 # Identifying Pharmacogenetics Variants in Methotrexate-Induced Mucositis Using Gene Set Analysis and Machine Learning 
 
 ## Overview
 
 This repository accompanies the publication:
 
-**Zhang XYC, Scott EN, Maagdenberg H, Man A, Li KH, Rassekh SR, Carleton BC, Ross CJD, Wasserman WW, Loucks CM.** *Pathway-Informed Machine Learning Identifies Genetic Predictors of High-Dose Methotrexate-Induced Mucositis in Pediatric Acute Lymphoblastic Leukemia*. **Clinical Pharmacology & Therapeutics**. 2026. https://doi.org/10.1002/cpt.70135
+**Zhang XYC, Scott EN, Maagdenberg H, Man A, Li KH, Rassekh SR, Carleton BC, Ross CJD, Wasserman WW, Loucks CM.** *Pathway-Informed Machine Learning Identifies Genetic Predictors of High-Dose Methotrexate-Induced Mucositis in Pediatric Acute Lymphoblastic Leukemia*. **Clinical Pharmacology & Therapeutics**. 2026. 
 
 The study investigated the genetic architecture of high-dose methotrexate-induced mucositis in pediatric acute lymphoblastic leukemia through pathway-informed feature engineering, gene set enrichment analysis, and machine learning. Biological pathways associated with mucositis susceptibility were identified and incorporated into predictive models to improve risk stratification.
 
