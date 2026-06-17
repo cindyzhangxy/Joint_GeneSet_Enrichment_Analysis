@@ -1,6 +1,7 @@
-[![Paper](https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/cpt.70135)]
-[![DOI]([https://doi.org/10.1002/cpt.70135])]
-[![Data](https://img.shields.io/badge/Data-Restricted-lightgrey.svg)]
+[![Published in CPT](https://img.shields.io/badge/Published%20in-CPT-darkgreen)](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.70135)
+[![DOI](https://img.shields.io/badge/DOI-10.1002%2Fcpt.70135-blue)](https://doi.org/10.1002/cpt.70135)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Cite](https://img.shields.io/badge/Cite-BibTeX-orange.svg)](#citation)
 
 # Identifying Pharmacogenetics Variants in Methotrexate-Induced Mucositis Using Gene Set Analysis and Machine Learning 
 
